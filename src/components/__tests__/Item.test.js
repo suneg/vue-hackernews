@@ -18,5 +18,5 @@ describe('Item.vue', () => {
 
 test('renders Hello, World!', () => {
   const wrapper = mount(TestComponent)
-  expect(wrapper.text()).toContain('Hello World')
+  expect(wrapper.find(".footer").text()).toContain('Great footer')
 })
